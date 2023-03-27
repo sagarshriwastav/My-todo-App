@@ -22,7 +22,7 @@ const itemsSchema = {
 const Item = mongoose.model("Item", itemsSchema);
 
 const item1 = new Item({
-  name: "welcome to the app."
+  name: "Welcome to the App."
 });
 const item2 = new Item({
   name: "Hit the + button to add a new item."
